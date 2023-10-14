@@ -7,8 +7,6 @@ namespace Examples.SmtpExamples.Async
     {
         static void Main(string[] args)
         {
-            // Example template
-
             var email = SmtpService.CreateMail(
                 "FromName",
                 "FromEmail@gmail.com",
